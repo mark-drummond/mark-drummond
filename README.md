@@ -5,11 +5,11 @@
 - 📫 How to reach me ...
 -->
 
-Welcome! I enjoy passkeys, verifiable credentials, and pedantic adherence to technical specifications. 🤓
+Welcome! I enjoy passkeys, verifiable credentials, and pedantic adherence to technical specifications.
 
 There’s really nothing here at the moment. Most of my work can be found in the IAM team Jira and Confluence pages. You can find me on LinkedIn. I have a blog that never gets updated. I've written a few really bad articles on Medium. I'm also on the infosec.exchange Mastadon server, but I hardly ever visit there.
 
-My IT background is in Unix and Linux system operations, cloud operations, and digital identity. I am what I will call a “junior” contributor to some of the technical committees at the Digital Governence Standards Institute, and I am a part-time undergrad in Economics at Queen’s University.
+My IT background is in Unix and Linux system operations, cloud service operations, and digital trust & identity. I contribute to the technical standards work at the Digital Governence Standards Institute, and I am a part-time undergrad in Economics at Queen’s University.
 
 You can also find me over here: [@dmark](https://github.com/dmark/).
 
