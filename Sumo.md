@@ -443,3 +443,18 @@ _sourceCategory=iam/auth0/tenants/sso.empire-prod.auth0.com
 | json field=_raw "data.type" as event_type | where event_type in ("s","ss")
 | first(date) as last_login group by auth0_username,client_name,event_type
 ```
+
+Client Credentials
+
+M2M tokens by client per month.
+
+```
+_sourceCategory=iam/auth0/tenants/*
+| json field=_raw "data.client_id" as client_id
+| json field=_raw "data.client_name" as client_name
+| json field=_raw "data.type" as event_type | where event_type in ("seccft")
+| timeslice 1d
+| formatDate(_timeslice,"yyyy-MM-01") as month
+| parseDate(month,"yyyy-MM-dd") as _timeslice
+| count by _sourceCategory,_timeslice,client_name,client_id | where _count > 10000
+```
