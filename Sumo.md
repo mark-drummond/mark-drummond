@@ -428,3 +428,18 @@ Monthly Active Users:
 | avg(users_per_month)
 ```
 
+Compliance/Last Login
+
+For a given list of user IDs, when was the last time they logged into one of the specified apps?
+
+```text
+_sourceCategory=iam/auth0/tenants/sso.empire-prod.auth0.com
+| json field=_raw "data.date" as date
+| parseDate(date, "yyyy-MM-dd'T'HH:mm:ss.SSSXXX") as milliseconds
+//| json field=_raw "data.client_id" as client_id | where client_id in ("TxNTG19Rv3XGYlMYSTC99RBOFUnl70zK","mGqOniv49ruZ0acIDwR1oF3oszxU0rFq")
+| json field=_raw "data.client_name" as client_name | where client_name in ("Empire Portal V2","The Business Centre")
+| json field=_raw "data.user_name" as auth0_username
+| json field=_raw "data.user_id" as user_id | where user_id in ("auth0|abc123","auth0|def456")
+| json field=_raw "data.type" as event_type | where event_type in ("s","ss")
+| first(date) as last_login group by auth0_username,client_name,event_type
+```
