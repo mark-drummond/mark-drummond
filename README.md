@@ -10,18 +10,13 @@ I work on Digital Trust & Identity, contribute to the technical standards work a
 
 👨‍💻 I'm currently working on:
 
-- A B.A. in [Economics](https://www.econ.queensu.ca/) at [Queen's University](https://queensu.ca),
-- Upgrading my CISSP to a CISSP-ISSAP.
+- Finishing my B.A. in [Economics](https://www.econ.queensu.ca/) at [Queen's University](https://queensu.ca),
 
 👨‍🎓 I'm currently reading:
 
-- George Orwell, _Selected Essays_.
-- _Slice Me Some Truth_, a collection of Canadian creative non-fiction essays.
-- Lee Gutkind, _You Can't Make This Stuff Up_, about how to write creative non-fiction.
-- Steven Pinker, _The Sense of Style_, about how to write well.
-- Augustine, _Confessions_.
-- David Kahn, _The Codebreakers_.
-- Auguste Kerckhoffs, _La Cryptographie Militaire_.
+- _The Penguin Book of Japanese Short Stories_. United Kingdom: Penguin Books Limited, 2018.
+- Kahn, David. _The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet_. United Kingdom: Scribner, 1996.
+- Kerckhoffs, Auguste. _La cryptographie militaire, ou, Des chiffres usités en temps de guerre: avec un nouveau procédé de déchiffrement applicable aux systèmes à double clef_. France: Librairie militaire de L. Baudoin, 1883.
 
 <!---
 mark-drummond/mark-drummond is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
